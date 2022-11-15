@@ -12,6 +12,6 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Tags: light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
 */
 
-h1 {
+h1 .elementor-heading-title {
   color: purple;
 }
