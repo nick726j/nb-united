@@ -24,9 +24,14 @@ get_header(); ?>
 
 <article>
   <h2></h2>
+   <div>
   <img class="img1" src="" alt="" />
   <img class="img2" src="" alt="" />
+</div>
+  <div>
   <p class="tekst"></p>
+  <img class="img3" src="" alt="" />
+  </div>
 </article>
 
 	</div><!-- #primary -->
@@ -48,6 +53,7 @@ function visHoldtype() {
   document.querySelector(".img1").src = holdtype.kampprogram.guid;
   document.querySelector(".img2").src = holdtype.holdets_stab.guid;
   document.querySelector(".tekst").textContent = holdtype.spillerliste;
+  document.querySelector(".img3").src = holdtype.billede.guid;
 }
 
 getJson();
