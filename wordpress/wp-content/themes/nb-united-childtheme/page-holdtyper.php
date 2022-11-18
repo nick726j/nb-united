@@ -84,7 +84,13 @@ function visHoldtyper() {
   holdtyper.forEach((holdtype) => {
 if(filterHoldtype == "alle" || holdtype.categories.includes(parseInt(filterHoldtype))){
       let klon = temp.cloneNode(true).content;
+<<<<<<< HEAD
       klon.querySelector("h2").textContent = holdtype.title.rendered;    
+=======
+      klon.querySelector("h2").textContent = holdtype.title.rendered;
+      klon.querySelector("img").src = holdtype.billede.guid;
+    
+>>>>>>> ca3d1f9327fbe251716fece4fd95e82347922eef
       // klon
       //   .querySelector("article")
       //   .addEventListener("click", () => {location.href = "restdb-single.html?id="+holdtype._id;});
