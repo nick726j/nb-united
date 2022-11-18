@@ -21,11 +21,11 @@ get_header(); ?>
 
 <template>
       <article>
-        <img src="" alt="" />
+        <img class="img1" src="" alt="" />
+         <img class="img2" src="" alt="" />
         <div>
         <h2></h2>
-        <p class="tekst1"></p>
-        <p class="tekst2"></p>
+        <p class="tekst"></p>
         </div>
       </article>
     </template>
@@ -90,9 +90,7 @@ function visHoldtyper() {
 if(filterHoldtype == "alle" || holdtype.categories.includes(parseInt(filterHoldtype))){
       let klon = temp.cloneNode(true).content;
       klon.querySelector("h2").textContent = holdtype.title.rendered;
-      klon.querySelector("img").src = holdtype.billede.guid;
-      klon.querySelector(".tekst1").textContent = holdtype.beskrivelse;
-	  klon.querySelector(".tekst2").textContent = holdtype.indmeldelse_og_kontigent;
+      klon.querySelector(".img").src = holdtype.billede.guid;
     
       // klon
       //   .querySelector("article")

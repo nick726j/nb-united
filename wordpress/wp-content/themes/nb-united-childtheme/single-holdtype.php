@@ -22,14 +22,12 @@ get_header(); ?>
 
 	<div id="primary" <?php astra_primary_class(); ?>>
 
- <article>
-        <img class="pic" src="" alt="" />
-        <div>
-        <h2></h2>
-        <p class="tekst1"></p>
-        <p class="tekst2"></p>
-        </div>
-      </article>
+<article>
+  <h2></h2>
+  <img class="img1" src="" alt="" />
+  <img class="img2" src="" alt="" />
+  <p class="tekst"></p>
+</article>
 
 	</div><!-- #primary -->
 
@@ -46,11 +44,10 @@ async function getJson() {
 }
 
 function visHoldtype() {
-    document.querySelector("h2").textContent = holdtype.title.rendered;
-      document.querySelector(".pic").src = holdtype.billede.guid;
-      document.querySelector(".tekst1").textContent = holdtype.beskrivelse;
-      document.querySelector(".tekst2").textContent = holdtype.indmeldelse_og_kontigent;
-
+  document.querySelector("h2").textContent = holdtype.title.rendered;
+  document.querySelector(".img1").src = holdtype.kampprogram.guid;
+  document.querySelector(".img2").src = holdtype.holdets_stab.guid;
+  document.querySelector(".tekst").textContent = holdtype.spillerliste;
 }
 
 getJson();
