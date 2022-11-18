@@ -90,7 +90,7 @@ function visHoldtyper() {
 if(filterHoldtype == "alle" || holdtype.categories.includes(parseInt(filterHoldtype))){
       let klon = temp.cloneNode(true).content;
       klon.querySelector("h2").textContent = holdtype.title.rendered;
-      klon.querySelector(".img").src = holdtype.billede.guid;
+      klon.querySelector("img").src = holdtype.billede.guid;
     
       // klon
       //   .querySelector("article")
