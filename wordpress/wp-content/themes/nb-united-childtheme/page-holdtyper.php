@@ -25,6 +25,13 @@ get_header(); ?>
       </article>
     </template>
 
+    <style>
+      button.filter {
+  margin-right: 5px;
+  margin-left: 5px;
+}
+      </style>
+
 <?php if ( astra_page_layout() == 'left-sidebar' ) : ?>
 
 	<?php get_sidebar(); ?>
