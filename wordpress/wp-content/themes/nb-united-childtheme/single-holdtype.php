@@ -72,7 +72,7 @@ async function getJson() {
 }
 
 function visHoldtype() {
-  document.querySelector("h2").textContent = holdtype.title.rendered;
+  document.querySelector("h2").innerHTML = holdtype.title.rendered;
   document.querySelector(".img1").src = holdtype.kampprogram.guid;
   document.querySelector(".img2").src = holdtype.holdets_stab.guid;
   document.querySelector(".tekst").innerHTML = holdtype.spillerliste;
