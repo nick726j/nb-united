@@ -45,17 +45,18 @@ get_header(); ?>
 </article>
     <style>
 
-h2 {
-  font-size: 45px;
+h2 .holdnavn {
+      font-size: 45px;
+    border-top: 5px solid #1B5929;
+    margin-top: 5%;
+    padding-top: 3%;
+    width: 30%;
+    margin-bottom: 1%;
 }
 
 article h3 {
   margin-bottom: 10px;
   margin-top: 10px;
-}
-
-.holdnavn {
-  margin-bottom: 10px;
 }
 .kampprogram {
   width: 50%;
