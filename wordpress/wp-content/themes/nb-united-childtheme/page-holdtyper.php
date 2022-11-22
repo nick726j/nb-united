@@ -37,7 +37,6 @@ get_header(); ?>
 }
 
 #filtrering {
-  margin-left: 10%;
   margin-bottom: 2%;
 }
 
