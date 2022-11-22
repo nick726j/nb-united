@@ -23,17 +23,40 @@ get_header(); ?>
 	<div id="primary" <?php astra_primary_class(); ?>>
 
 <article>
-  <h2></h2>
-   <div>
+  <h2 class="holdnavn"></h2>
+<div class="kampprogram">
+    <h3>Kampprogram</h3>
   <img class="img1" src="" alt="" />
+</div>
+<div class="traener">
+  <h3>Trænere</h3>
   <img class="img2" src="" alt="" />
 </div>
+
   <div>
   <p class="tekst"></p>
+  <h3 class="holdimg">Holdet</h3>
   <img class="img3" src="" alt="" />
   </div>
 </article>
+    <style>
+article h3 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
 
+.holdnavn {
+  margin-bottom: 10px;
+}
+.kampprogram {
+  width: 50%;
+  float: left;
+}
+.traener {
+  width: 50%;
+  float: right;
+}
+      </style>
 	</div><!-- #primary -->
 
 	<script>
