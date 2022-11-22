@@ -43,6 +43,7 @@ get_header(); ?>
   <img class="img3" src="" alt="" />
   </div>
 </article>
+
     <style>
 article h3 {
   margin-bottom: 10px;
@@ -60,7 +61,10 @@ article h3 {
   width: 50%;
   float: right;
 }
+
+
       </style>
+
 	</div><!-- #primary -->
 
 	<script>

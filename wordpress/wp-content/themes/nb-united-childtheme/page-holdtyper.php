@@ -30,6 +30,21 @@ get_header(); ?>
   margin-right: 5px;
   margin-left: 5px;
 }
+
+#primary {
+  margin-left: 10%;
+   margin-bottom: 10%;
+}
+
+#filtrering {
+  margin-left: 10%;
+  margin-bottom: 2%;
+}
+
+.holdtypecontainer{
+
+}
+
       </style>
 
 <?php if ( astra_page_layout() == 'left-sidebar' ) : ?>
