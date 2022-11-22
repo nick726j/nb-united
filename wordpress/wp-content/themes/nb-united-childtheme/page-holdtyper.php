@@ -33,7 +33,7 @@ get_header(); ?>
 
 #primary {
   margin-left: 10%;
-   margin-bottom: 10%;
+   margin-bottom: 7%;
 }
 
 #filtrering {
