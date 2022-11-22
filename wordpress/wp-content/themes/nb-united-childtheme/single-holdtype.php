@@ -48,7 +48,14 @@ get_header(); ?>
 button{
 		font-weight:bold;
 }
-
+.img1, .img2 {
+width: 50%;
+  height: auto;
+}
+.tekst {
+font-size: 20px;
+color: #1B5929;
+}
 button:hover{
 		color:green;
 	font-weight:bold;
