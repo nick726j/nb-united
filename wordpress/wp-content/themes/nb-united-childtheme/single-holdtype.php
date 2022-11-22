@@ -52,7 +52,7 @@ function visHoldtype() {
   document.querySelector("h2").textContent = holdtype.title.rendered;
   document.querySelector(".img1").src = holdtype.kampprogram.guid;
   document.querySelector(".img2").src = holdtype.holdets_stab.guid;
-  document.querySelector(".tekst").textContent = holdtype.spillerliste;
+  document.querySelector(".tekst").innerHTML = holdtype.spillerliste;
   document.querySelector(".img3").src = holdtype.billede.guid;
 }
 
