@@ -24,7 +24,7 @@ get_header(); ?>
 
 <article>
   <form>
- <input type="button" value="Go back!" onclick="history.back()">
+ <input type="button" value="Tilbage" onclick="history.back()">
 </form>
 
   <h2 class="holdnavn"></h2>
