@@ -91,7 +91,7 @@ function visHoldtyper() {
   holdtyper.forEach((holdtype) => {
 if(filterHoldtype == "alle" || holdtype.categories.includes(parseInt(filterHoldtype))){
       let klon = temp.cloneNode(true).content;
-      klon.querySelector("h2").textContent = holdtype.title.rendered;    
+      klon.querySelector("h2").innerHTML = holdtype.title.rendered;    
       // klon
       //   .querySelector("article")
       //   .addEventListener("click", () => {location.href = "restdb-single.html?id="+holdtype._id;});
