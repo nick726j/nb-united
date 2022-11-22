@@ -45,6 +45,23 @@ get_header(); ?>
 </article>
     <style>
 
+button{
+		font-weight:bold;
+}
+
+button:hover{
+		color:green;
+	font-weight:bold;
+	background-color:white;
+	border:solid 2px green;
+}
+
+button:focus{
+	color:green;
+	font-weight:bold;
+	background-color:white;
+	border:solid 2px green;
+}
 h2 .holdnavn {
       font-size: 45px;
     border-top: 5px solid #1B5929;
