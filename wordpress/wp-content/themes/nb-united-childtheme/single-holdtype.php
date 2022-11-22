@@ -23,19 +23,23 @@ get_header(); ?>
 	<div id="primary" <?php astra_primary_class(); ?>>
 
 <article>
+  <form>
+ <input type="button" value="Go back!" onclick="history.back()">
+</form>
+
   <h2 class="holdnavn"></h2>
 <div class="kampprogram">
     <h3>Kampprogram</h3>
   <img class="img1" src="" alt="" />
 </div>
 <div class="traener">
-  <h3>Trænere</h3>
+  <h3>Træner</h3>
   <img class="img2" src="" alt="" />
 </div>
 
   <div>
   <p class="tekst"></p>
-  <h3 class="holdimg">Holdet</h3>
+  <h3 class="holdimg">Holdbillede</h3>
   <img class="img3" src="" alt="" />
   </div>
 </article>
