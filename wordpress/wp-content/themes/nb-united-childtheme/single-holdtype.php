@@ -23,14 +23,11 @@ get_header(); ?>
 	<div id="primary" <?php astra_primary_class(); ?>>
 
 <article>
-  <div class="goback">
   <form>
  <input type="button" value="Tilbage" onclick="history.back()">
 </form>
-</div>
-<div class="holdplacering">
+
   <h2 class="holdnavn"></h2>
-</div>
 <div class="kampprogram">
     <h3>Kampprogram</h3>
   <img class="img1" src="" alt="" />
@@ -46,17 +43,12 @@ get_header(); ?>
   <img class="img3" src="" alt="" />
   </div>
 </article>
-
     <style>
 
-.holdplacering {
-  width: 50%;
-  float: left;
+h2 {
+  font-size: 45px;
 }
-.goback {
-   width: 50%;
-  float: right;
-}
+
 article h3 {
   margin-bottom: 10px;
   margin-top: 10px;
@@ -73,10 +65,7 @@ article h3 {
   width: 50%;
   float: right;
 }
-
-
       </style>
-
 	</div><!-- #primary -->
 
 	<script>
