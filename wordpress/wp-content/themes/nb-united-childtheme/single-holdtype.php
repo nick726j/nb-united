@@ -37,37 +37,24 @@ get_header(); ?>
   <img class="img2" src="" alt="" />
 </div>
 
-  <div>
+  <div class="spillerliste">
   <p class="tekst"></p>
+</div>
+<div class="holdimg">
   <h3 class="holdimg">Holdbillede</h3>
   <img class="img3" src="" alt="" />
   </div>
 </article>
     <style>
 
-button{
-		font-weight:bold;
-}
 .img1, .img2 {
-width: 50%;
+width: 90%;
   height: auto;
 }
 .tekst {
 font-size: 20px;
 color: #1B5929;
-}
-button:hover{
-		color:green;
-	font-weight:bold;
-	background-color:white;
-	border:solid 2px green;
-}
 
-button:focus{
-	color:green;
-	font-weight:bold;
-	background-color:white;
-	border:solid 2px green;
 }
 h2 .holdnavn {
       font-size: 45px;
